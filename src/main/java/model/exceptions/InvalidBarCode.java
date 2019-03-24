@@ -1,4 +1,4 @@
 package model.exceptions;
 
-public class InvalidBarCode {
+public class InvalidBarCode extends Exception{
 }

@@ -10,4 +10,22 @@ public class Product {
 
     private BigDecimal price;
 
+
+    public Barcode getBarcode() {
+        return barcode;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public BigDecimal getPrice() {
+        return price;
+    }
+
+    public Product(Barcode barcode, String name, BigDecimal price){
+        this.barcode = barcode;
+        this.name = name;
+        this.price = price;
+    }
 }

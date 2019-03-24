@@ -1,4 +1,5 @@
 package model.exceptions;
 
-public class ProductNotFound {
+public class ProductNotFound extends Exception{
+
 }
